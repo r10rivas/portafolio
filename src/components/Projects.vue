@@ -24,6 +24,7 @@
   import ExternalLinkIcon from "./../assets/images/external-link-icon.svg";
   import Pokehack from "./../assets/images/projects/pokehack.gif";
   import WeatherApp from "./../assets/images/projects/weather-app.gif";
+  import FoxesVsRabbits from "./../assets/images/projects/foxes-vs-rabbits.gif";
 
   import ListProjects from "./ListProjects";
 
@@ -51,6 +52,13 @@
             linkGitHub: "https://github.com/r10rivas/weather-app-vue",
             linkProject: "https://r10rivas-weather-app.netlify.app/",
             image: WeatherApp,
+          },
+                    {
+            name: "Foxes Vs Rabbits",
+            description: "Foxes vs Rabbits is a challenge/game aimed at demonstrating the skills and knowledge acquired on programming.",
+            technologies: ['ruby'],
+            linkGitHub: "https://github.com/r10rivas/foxes-vs-rabbits",
+            image: FoxesVsRabbits,
           },
         ]
       }
