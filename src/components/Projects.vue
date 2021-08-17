@@ -23,6 +23,7 @@
   import GitHubIcon from "./../assets/images/github-icon.svg";
   import ExternalLinkIcon from "./../assets/images/external-link-icon.svg";
   import Pokehack from "./../assets/images/projects/pokehack.gif";
+  import WeatherApp from "./../assets/images/projects/weather-app.gif";
 
   import ListProjects from "./ListProjects";
 
@@ -42,6 +43,14 @@
             linkGitHub: "https://github.com/r10rivas/pokehack-vue",
             linkProject: "https://pokehack.netlify.app/",
             image: Pokehack,
+          },
+          {
+            name: "Weather App",
+            description: "Application to know the climate of different countries",
+            technologies: ['Vuejs, TailwindCSS'],
+            linkGitHub: "https://github.com/r10rivas/weather-app-vue",
+            linkProject: "https://r10rivas-weather-app.netlify.app/",
+            image: WeatherApp,
           },
         ]
       }
