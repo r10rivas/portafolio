@@ -28,7 +28,10 @@ export default {
     goTo (refName) {
       const element = this.$refs[refName];
       const top = element.$el.offsetTop;
-      window.scrollTo(0, top);
+      window.scrollTo({
+        top: top,
+        behavior: "smooth",
+      });
     }
   }
 }
