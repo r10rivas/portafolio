@@ -24,7 +24,7 @@
         <a :href="projectData.linkGitHub" target="_blank" rel="noopener noreferrer">
           <img class="w-12 h-12 pr-3" :src="GitHubIcon" alt="git-hub-logo"/>
         </a>
-        <a :href="projectData.linkProject" target="_blank" rel="noopener noreferrer">
+        <a :href="projectData.linkProject" v-if="projectData.linkProject" target="_blank" rel="noopener noreferrer">
           <img class="w-12 h-12 pr-3" :src="ExternalLinkIcon" alt="git-hub-logo"/>
         </a>
       </div>
@@ -58,7 +58,3 @@
     }
   }
 </script>
-
-<style lang="scss" scoped>
-
-</style>
