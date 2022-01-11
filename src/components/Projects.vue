@@ -26,6 +26,8 @@
   import WeatherApp from "./../assets/images/projects/weather-app.gif";
   import FoxesVsRabbits from "./../assets/images/projects/foxes-vs-rabbits.gif";
   import TodoListApp from "./../assets/images/projects/todo-list-app.gif";
+  import ApiBookWorld from "./../assets/images/projects/api-book-world.gif";
+  import HugsAndCoffees from "./../assets/images/projects/hugs-and-coffees.gif";
 
   import ListProjects from "./ListProjects";
 
@@ -68,6 +70,21 @@
             linkGitHub: "https://github.com/r10rivas/todo-list-app-vue",
             linkProject: "https://todo-list-app-vue-m3u77uj3v-r10rivas.vercel.app/",
             image: TodoListApp,
+          },
+          {
+            name: "API Book World",
+            description: "API books built with rails and based on TDD, using JWT for authentication.",
+            technologies: ['Ruby on Rails', 'Jbuilder', 'Rspec', 'JWT'],
+            linkGitHub: "https://github.com/r10rivas/api-book-world",
+            image: ApiBookWorld,
+          },
+          {
+            name: "Hugs And Coffees",
+            description: "App for people to donate and give artists appreciation.",
+            technologies: ['Ruby on rails', 'ReactJS','TailwindCSS'],
+            linkGitHub: "https://github.com/r10rivas/hugs-and-coffees",
+            linkProject: "https://hugs-and-coffees.herokuapp.com/",
+            image: HugsAndCoffees,
           },
         ]
       }
