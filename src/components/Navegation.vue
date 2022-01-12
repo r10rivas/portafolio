@@ -1,5 +1,5 @@
 <template>
-  <div class="sticky w-full z-10" v-bind:style="{top: scrollPos}">
+  <div class="sticky transition-top duration-200 w-full z-10" v-bind:style="{top: scrollPos}">
     <!-- Navbar -->
     <header class="flex justify-between items-center w-full py-6 px-8 bg-app-black">
       <div class="flex items-center w-32 h-20">
