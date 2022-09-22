@@ -9,17 +9,17 @@
         <ul class="flex mx-4 my-2">
           <li
             class="flex items-center cursor-pointer px-8 hover:bg-primary"
-            @click.stop.prevent="handleNavegation('about')"
+            @click.stop.prevent="handleNavigation('about')"
           >
             About
           </li>
           <li class="flex items-center cursor-pointer px-8 hover:bg-primary"
-              @click.stop.prevent="handleNavegation('whereWorked')"
+              @click.stop.prevent="handleNavigation('whereWorked')"
           >
             Experiences
           </li>
           <li class="flex items-center cursor-pointer px-8 hover:bg-primary"
-              @click.stop.prevent="handleNavegation('projects')"
+              @click.stop.prevent="handleNavigation('projects')"
           >
             Projects
           </li>
@@ -61,17 +61,17 @@
           <ul class="cursor-pointer">
             <li
               class="p-4 text-center hover:bg-primary"
-              @click.stop.prevent="handleNavegation('about')"
+              @click.stop.prevent="handleNavigation('about')"
             >
               About
             </li>
             <li class="p-4 text-center hover:bg-primary"
-                @click.stop.prevent="handleNavegation('whereWorked')"
+                @click.stop.prevent="handleNavigation('whereWorked')"
             >
               Experiences
             </li>
             <li class="p-4 text-center hover:bg-primary"
-                @click.stop.prevent="handleNavegation('projects')"
+                @click.stop.prevent="handleNavigation('projects')"
             >
               Projects
             </li>
@@ -121,7 +121,7 @@ export default {
 
       this.prevScrollpos = currentScrollPos;
     },
-    handleNavegation (value) {
+    handleNavigation (value) {
       this.scrollPos = "-80px";
       this.sidebarShow = false;
       this.$emit("goTo", value);
