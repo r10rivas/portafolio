@@ -28,6 +28,7 @@
   import TodoListApp from "./../assets/images/projects/todo-list-app.gif";
   import ApiBookWorld from "./../assets/images/projects/api-book-world.gif";
   import HugsAndCoffees from "./../assets/images/projects/hugs-and-coffees.gif";
+  import URLShortener from "./../assets/images/projects/url-shortener.gif";
 
   import ListProjects from "./ListProjects";
 
@@ -85,6 +86,14 @@
             linkGitHub: "https://github.com/r10rivas/hugs-and-coffees",
             linkProject: "https://hugs-and-coffees.herokuapp.com/",
             image: HugsAndCoffees,
+          },
+          {
+            name: "URL Shortener",
+            description: "App to shorten url addresses.",
+            technologies: ['ReactJS, TailwindCSS'],
+            linkGitHub: "https://github.com/r10rivas/url-shortener",
+            linkProject: "https://url-shortener-r10rivas.vercel.app/",
+            image: URLShortener,
           },
         ]
       }
